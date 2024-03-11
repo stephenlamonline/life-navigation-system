@@ -1,0 +1,18 @@
+<!--index.wxml-->
+
+<view class="section tc">
+  <image src="../asset/title.png" mode="aspectFit"></image>
+</view>
+<!-- 在页面中使用 display-screen 组件 -->
+<display-screen displayText="Hello World"></display-screen>
+  <view class="btn-area">
+     <view class="input">
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder= "敢于向黑暗宣战的人，心里必须充满光明。" bindblur="bindInputBlur" />
+                </view>
+            </view>
+
+    <button class="btn" bindtap="send" type="primary">上传</button>
+  </view>
+
+

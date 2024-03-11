@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/loading/loading",
+    "pages/index/index",
+    "pages/profile/profile",
+    "pages/logs/logs",
+    "pages/upload/upload",
+    "pages/messages/messages",
+    "pages/plan/plan",
+    "pages/guide/guide"
+
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "人生导航系统",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#9E9E9E",
+    "selectedColor": "#444444",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "./pages/asset/tabBar/home.png",
+      "selectedIconPath": "./pages/asset/tabBar/home_active.png"
+    },
+      {"pagePath": "pages/upload/upload",
+        "text": "OLED同步",
+        "iconPath": "pages/asset/tabBar/upload.png",
+        "selectedIconPath": "pages/asset/tabBar/upload_active.png"},
+        {"pagePath": "pages/profile/profile",
+          "text": "个人资料",
+          "iconPath": "pages/asset/tabBar/profile.png",
+          "selectedIconPath": "pages/asset/tabBar/profile_active.png"}
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+/**index.wxss**/
+page {
+  background-color: white;
+}
+.container{
+  padding:48rpx 24rpx
+}
+.logo{
+  align-items: center;
+  margin-top:50rpx;
+  align-self: center;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.navi-list{
+  margin-top: 10rpx;
+  width:15%;
+  height:125rpx;
+  border-radius: 24rpx;
+  box-shadow:0px 0px 24rpx -4rpx rgba(0,0,0, 0.1);
+  background:rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rpx 14rpx;
+}
+
+.navi-item image{
+  width: 64rpx;
+  height: 64rpx;
+}
+
+.navi-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navi-title{
+  font-size: 24rpx;
+  margin-top: 4rpx;
+  color:rgb(19, 15, 15);
+  font-weight: bold;
+}
+
+.plan {
+  width: 100%;
+  border-radius: 24rpx;
+  background: #ffffff;
+  box-shadow: 0px 0px 24rpx -4rpx rgba(0, 0, 0, 0.1);
+  margin-top: 30rpx;
+  padding: 30rpx;
+}
+
+.plan-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70rpx;
+}
+
+.option-title {
+  font-size: 40rpx;
+  color: #3e9c96;
+  font-weight: 500;
+}
+
+.option-time {
+  font-size: 26rpx;
+  color: #666666;
+}
+
+.plan-box {
+  margin-top: 10rpx;
+}
+
+.empty-img {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.empty-title {
+  font-size: 26rpx;
+  color: #999999;
+  margin-top: 50rpx;
+}
+
+.plan-list {
+  width: 100%;
+}
+
+.plan-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 0;
+}
+
+.plan-item:not(:last-child) {
+  border-bottom: 1rpx solid #f6f6f6;
+}
+
+.plan-name {
+  color: #3D3D3D;
+}
+
+.plan-ddl {
+  font-size: 24rpx;
+  color: #838383;
+}
+
+.empty-list {
+  padding: 40rpx 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.chose{
+  display: flex;
+  background-color: #e7e2e2;
+  width: 300rpx;
+  height: 60rpx;
+  text-align: center;
+  border-radius: 67rpx;
+  line-height: 74rpx;
+  font-size: 20rpx;
+  margin-top: -15rpx;
+}
+.chose>view{
+  width: 200rpx;
+  flex: 1;
+  
+}
+.box1{
+  background-color: #666;
+  color: #fff;
+  border-radius: 67rpx;
+}
+
+.urgent_important{
+  display: flex;
+  flex-direction: row;
+}
+
+.importance{
+  width: 36rpx;
+  height: 36rpx;
+  margin-left: 10rpx;
+}

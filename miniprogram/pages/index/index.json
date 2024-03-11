@@ -1,0 +1,16 @@
+{
+  "usingComponents": {
+    "popover":"/components/popover",
+    "popover-item":"/components/popover-item"
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "导航主页",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": "false"
+  }
+
+  
+}

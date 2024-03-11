@@ -1,0 +1,53 @@
+<!--index.wxml-->
+<view class="top">
+  <view class="logo">
+        <image src="../asset/logo.png" mode="widthFix"></image>
+  </view>
+</view>
+
+<view class="container">
+  <view class="navi-list">
+    <view class="navi-item" data-index="{{index}}" wx:for="{{navList}}" bindtap="nav">
+      <image class="navi-icom" mode="aspectFit" src="{{item.icon}}"></image>
+      <view class="navi-title">{{item.title}}</view>
+    </view>
+  </view>
+  <view class="plan">
+    <view class="plan-title">
+      <view>
+      <view class="option-title">规划总览</view>
+      <view class="option-time">{{date.month}}月{{date.day}}日</view>
+      </view>
+      
+    <view class="chose">
+        <view  class="{{num==1?'box1':''}}" bindtap="Click" id="1">紧急度排列</view>
+        <view  class="{{num==2?'box1':''}}" bindtap="Click" id="2">重要性排列</view>
+    </view>
+
+    </view>
+    <view class="plan-box">
+      <block wx:if="{{isEmpty}}">
+        <view class="empty-list">
+          <image class="empty-img" src="/pages/asset/empty.png" mode="aspectFit"></image>
+        <view class="empty-title">还没有规划哦，快去规划一下吧！</view>
+        </view>
+      </block>
+      <block wx:else>
+        <view class="plan-list">
+            <view class="plan-item" wx:for="{{planlist}}" wx:key="num" wx:if="{{item.complete!=1}}">
+              <view class="plan-name" bindtap="onTap" id="view_{{index}}">{{item.name}}</view>
+              <view class="urgent_important">
+                <view class="plan-ddl">{{item.ddl.month}}.{{item.ddl.day}}</view>
+                <image class="importance" src="/pages/asset/importance/{{item.importance}}.png"></image>
+              </view>
+            </view>
+        </view>
+      </block>
+    </view>
+    <popover id='popover'>
+      <popover-item bindtap='complete' hasline>完成</popover-item>
+      <popover-item bindtap='delete' hasline>删除</popover-item>
+    </popover>
+  </view>
+</view>
+

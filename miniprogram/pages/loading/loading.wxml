@@ -1,0 +1,11 @@
+<!--pages/loading/loading.wxml-->
+<view>
+  <view class="btnview">
+    <button bindtap="getUserProfile" class="btn" type="primary">授权登录</button>
+    <view class="text">
+    <text >欢迎使用人生导航系统，请授权您的微信信息以继续，您的个人信息将会被妥善保存</text>
+  </view>
+  </view>
+
+  
+</view>
