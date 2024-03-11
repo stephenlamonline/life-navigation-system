@@ -13,15 +13,6 @@
 
 来吧，开启“导航”，let’s go!
 
-![image-20240311171135018](C:\Users\steph\AppData\Roaming\Typora\typora-user-images\image-20240311171135018.png)
-
-#### **创意过程**
-
-![image-20240311224118713](C:\Users\steph\AppData\Roaming\Typora\typora-user-images\image-20240311224118713.png)
-
-
-
-#### **用户分析**
 
 **目标用户：**
 
@@ -29,12 +20,6 @@
 2. 无法掌握自己生活节奏、财务状况的在职人士、大学生
 3. 有抱负却因缺少规划无法坚持的在职人士、大学生
 
-
- **用户画像：**
-
- ![image-20240311224548620](C:\Users\steph\AppData\Roaming\Typora\typora-user-images\image-20240311224548620.png)
-
- 
 
 **痛点——需求点：**根据用户特点的分析，归纳一下目标用户的痛点和相对应的需求。
 
@@ -44,38 +29,12 @@
 | 空有一腔抱负、制定了远大的目标。却缺少一个将目标落实的途径。做着无效的每日打卡、列下长长的任务清单，做着成效甚微且无法看到进度的努力。最后热情被消磨，直至放弃。 | 想要切实的达到目标，能真正看到目标的可行性，而非一个虚幻的信念、激励。希望看到进度的推进，知道自己距离目标还有多远，努力被量化，能确实的看到变化。 |
 | 缺少一个统一化且功能足够强大媒介。任务分散在不同的平台软件上，有打卡形式、每日清单形式。 却没有将任务简洁统一的按照时间排列，具备提醒功能的界面；亦缺少人性化修改、反思时间安排的空间。 | 提供计划和安排任务的功能，帮助用户管理时间和完成任务。  提供任务分类和标记的功能，帮助用户区分不同类型的任务并给予优先级。  提供时间跟踪和统计的功能，帮助用户了解自己的时间利用情况，且延伸出每日反思、根据数据提供建议模块。 |
 
-**商业模式画布**
-
-![image-20240311224633388](C:\Users\steph\AppData\Roaming\Typora\typora-user-images\image-20240311224633388.png)
-
- 
-
-#### 场景分析
-
-![image-20240311224643570](C:\Users\steph\AppData\Roaming\Typora\typora-user-images\image-20240311224643570.png)
-
- 
-
-#### 系统功能拆解
-
-**核心功能一览**
-
-![image-20240311224900808](C:\Users\steph\AppData\Roaming\Typora\typora-user-images\image-20240311224900808.png)
-
-**系统架构图**
-
-![image-20240311224814719](C:\Users\steph\AppData\Roaming\Typora\typora-user-images\image-20240311224814719.png)
 
 
-**系统流程图**
-
- ![image-20240311224820261](C:\Users\steph\AppData\Roaming\Typora\typora-user-images\image-20240311224820261.png)
 
 #### 功能实现
 
 **1.   主页**
-
-![image-20240311224956177](C:\Users\steph\AppData\Roaming\Typora\typora-user-images\image-20240311224956177.png)
 
  
 
